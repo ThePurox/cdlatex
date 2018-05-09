@@ -1456,6 +1456,10 @@ zZ
      "\\quad"        nil nil t t)
     ("qqq"        "Insert \\qquad"
      "\\qquad"       nil nil t t)
+    ("si"         "Insert \\si{}"
+     "\\si{?}"           cdlatex-position-cursor nil t t)
+    ("SI"         "Insert \\SI{}{}"
+     "\\SI{?}{}"           cdlatex-position-cursor nil t t)
     )
   "Default for cdlatex-command-alist.")
 
